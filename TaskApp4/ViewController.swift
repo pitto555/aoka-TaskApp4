@@ -14,17 +14,12 @@ class ViewController: UIViewController {
     private var count = 0
 
     @IBAction func plusButton(_ sender: Any) {
-        
         count = count + 1
         label.text =  String(count)
- 
     }
     
     @IBAction func cleaButton(_ sender: Any) {
-      
         count = 0
         label.text = String(count)
-        
     }
 }
-
